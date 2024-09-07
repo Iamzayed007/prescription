@@ -74,8 +74,11 @@ const useDataHelper=()=>{
             [inputName]:  e.target.value
     }) 
    }
+   const handleClose =()=>{    
+          setInputData({})
+          closeRightSidePanel()
+  }
    const handleErrors=(inputName)=>{
-    console.log(inputName);
         setErrors({
             ...errors,
             [inputName]:  true
@@ -268,7 +271,8 @@ const generatePDF = async () => {
         createMedicine,
         closeLeftSidePanel,
         createCcDetails,
-        generatePDF
+        generatePDF,
+        handleClose
 
 
     }
