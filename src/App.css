@@ -1,0 +1,21 @@
+.App {
+  display: flex;
+  justify-content: center
+}
+.cursorPointer{
+  cursor: pointer !important;
+}
+.minHeight300{
+  min-height: 300px !important;
+}
+.minHeight60vh{
+  min-height: 60vh !important;
+}
+.textGreen{
+  color: rgb(6, 94, 6);
+  /* background-color: rgb(110, 225, 110);
+  color: white; */
+}
+.minWidth100{
+  min-width: 100px !important;
+}

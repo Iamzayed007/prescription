@@ -1,0 +1,16 @@
+@media print{
+.prescriptionTemplate{
+
+    margin: 0px 80px 0px 80px;
+ 
+}
+}
+
+.doctorDetailsContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.medicineContainer{
+    /* min-height: 80vh; */
+}

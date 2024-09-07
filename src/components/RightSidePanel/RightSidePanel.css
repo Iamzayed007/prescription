@@ -1,0 +1,10 @@
+.rightSidePanel{
+    position: absolute;
+    top: 0px !important;
+    right: 0px !important;
+    width: 450px;
+    border: 1px solid rgb(239, 233, 233);
+    background-color: white;
+    min-height: 120vh;
+    z-index: 1;
+}
