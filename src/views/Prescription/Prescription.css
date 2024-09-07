@@ -1,9 +1,22 @@
 @media print{
 .prescriptionTemplate{
-
-    margin: 0px 80px 0px 80px;
- 
+    margin: 0px 80px 0px 80px; 
 }
+  @media (max-width: 768px) {
+    .prescriptionTemplate {
+      display: flex; 
+      flex-direction: row; 
+      justify-content: space-between;
+    }
+
+    .doctorDetailsContainer, 
+    .medicineContainer, 
+    .patientDetailsContainer {
+      display: flex; 
+      flex-direction: column; 
+      padding: 5px; 
+    }
+  }
 }
 
 .doctorDetailsContainer{
